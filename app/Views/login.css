@@ -1,0 +1,90 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+img {
+  width: 30em;
+  height: 10em;
+  display: inline-block;
+}
+.container {
+  padding-left: 15em;
+  margin: 3em;
+}
+.login_box {
+  margin: 3em;
+}
+.box {
+  margin: 3em;
+  width: 40em;
+  padding: 2.5em;
+  background-color: white;
+  text-align: center;
+  border: 1em solid #ff4444;
+}
+.box input[type="text"],
+.box input[type="password"] {
+  font-family: lato, sans-serif;
+  border: 0;
+  background: white;
+  display: block;
+  margin: 1.25em auto;
+  text-align: center;
+  border: 0.125em solid #343a40;
+  padding: 0.625em 0.625em;
+  width: 15.625em;
+  outline: none;
+  color: black;
+  border-radius: 1.5em;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 22em;
+  border-color: #343a40;
+}
+
+.box h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  width: 18.75em;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background-color: #ff4444;
+  display: block;
+  margin: 1.25em auto;
+  text-align: center;
+  padding: 0.875em 2.5em;
+  outline: none;
+  color: white;
+}
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
