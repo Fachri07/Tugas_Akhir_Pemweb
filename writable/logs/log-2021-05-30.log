@@ -1,0 +1,252 @@
+CRITICAL - 2021-05-30 00:41:57 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:43:08 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:49:53 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:49:57 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->home()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:51:28 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:51:52 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:51:57 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:54:44 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:54:45 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:56:06 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->home()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:56:19 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->home()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 00:56:20 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->home()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:01:26 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:06:36 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:11:00 --> Undefined property: App\Controllers\JamesUlos::$load
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:33:32 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:33:44 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:34:52 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:35:06 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:35:45 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:36:14 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:36:17 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/home')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/home')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:36:18 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('JamesUlos')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('JamesUlos')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:36:21 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:36:56 --> Undefined variable $background
+#0 C:\xampp\htdocs\appstarter\app\Views\form_pemesanan.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('form_pemesanan', Array, true)
+#4 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(18): view('form_pemesanan')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 01:38:10 --> syntax error, unexpected token "namespace"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:39:13 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/order')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/order')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:39:16 --> syntax error, unexpected token "/", expecting "," or ";"
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:40:45 --> Undefined property: App\Controllers\JamesUlos::$input
+#0 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:44:00 --> Undefined property: App\Controllers\JamesUlos::$input
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:44:09 --> Undefined property: App\Controllers\JamesUlos::$input
+#0 C:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 01:51:16 --> Class "App\Models\CI_Model" not found
+#0 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#3 C:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#4 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-30 01:52:15 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 01:52:35 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 01:53:50 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 01:56:52 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 01:58:45 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 02:04:59 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-30 02:08:32 --> Cannot redeclare App\Models\James_Ulos_model::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

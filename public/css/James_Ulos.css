@@ -1,0 +1,112 @@
+html{
+	scroll-behavior: smooth;
+}
+.form-inline button, .form-inline input{
+	background-color: #FF4444;		
+}
+.menu{
+	background-color: #FF4444;
+	margin: auto;	
+	margin-bottom: -1em;
+	width:100%;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu button{
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	background-color: #EF9A9A;
+	width: 11em;	
+	color: black;
+	font-weight: bold;
+	font-family: montserrat;
+	font-size: 1em;
+}
+.carousel-inner h1{
+	font-size: 2.625em;
+	font-family: montserrat;
+}
+.carousel-inner p{
+	font-family: lato ;		
+	font-size: 1.125em;
+}
+.card{
+	width: 18rem; 
+	float: left; 
+	margin: 20px;
+}
+.komoditas{
+	padding: 1.875em 3.125em;
+	background-color: #F44336;
+}
+.komoditas h2{
+	font-weight: bold;
+}
+.gallery{
+	padding-bottom: 1em;
+}
+.gallery button{
+	width: 5em;
+}
+
+.helper button{
+	float: right;
+	background-color: #FFAB00;
+	border-radius: 50%;
+	border: none;
+	width: 4em;
+	height: 4em;
+}
+.helper img{
+	width: 2em;
+	height: 2em;
+}
+.footer{
+	background-color: #343A40;
+	margin-bottom: -1.25em;
+}
+
+.footer h4{
+	text-align: center;
+	display: inline-block;		
+	font-family: montserrat, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	padding: 1em 1em 1em 1em;	
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+.cp{
+	float: right;
+}
+.ulos{
+	padding-top: 1.875em;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

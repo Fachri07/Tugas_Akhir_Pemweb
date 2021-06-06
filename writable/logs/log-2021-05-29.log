@@ -1,0 +1,330 @@
+CRITICAL - 2021-05-29 03:11:44 --> syntax error, unexpected token "<", expecting end of file
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(8): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:12:27 --> Invalid file: login.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(8): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:14:45 --> Undefined property: App\Controllers\JU::$load
+#0 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 9)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 03:14:58 --> Undefined property: App\Controllers\JU::$load
+#0 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 10)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-29 03:15:42 --> syntax error, unexpected token "<", expecting end of file
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:16:42 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:19:17 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:19:20 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:19:23 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:21:44 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:21:57 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:22:02 --> Invalid file: James_Ulos.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:25:48 --> Invalid file: login.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:33:09 --> syntax error, unexpected identifier "logo", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:33:24 --> syntax error, unexpected identifier "logo", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:33:39 --> syntax error, unexpected identifier "logo", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:49:52 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:50:43 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 03:55:16 --> syntax error, unexpected token ":", expecting "," or ";"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 04:19:50 --> Undefined variable $post
+#0 E:\xampp\htdocs\appstarter\app\Views\login.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\JU.php(9): view('login')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 05:10:19 --> Invalid file: James_Ulos_view.php
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos_view...')
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 05:10:54 --> Invalid file: James_Ulos_view.php
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos_view...')
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 05:10:58 --> Invalid file: James_Ulos_view.php
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos_view...')
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 05:11:02 --> Invalid file: James_Ulos_view.php
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('James_Ulos_view...')
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(9): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->index()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 07:23:49 --> syntax error, unexpected token "echo"
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 07:28:27 --> syntax error, unexpected identifier "views", expecting "," or ";"
+#0 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#2 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#5 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-29 08:02:42 --> fopen(/thumbnail/tb7.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/thumbnai...', 'E:\\XAMPP\\htdocs...', 199)
+#1 E:\XAMPP\htdocs\appstarter\app\Views\James_Ulos_view.php(199): fopen('/thumbnail/tb7....', 'rb')
+#2 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\XAMPP\\htdocs...')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#5 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#6 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#7 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#8 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 08:02:58 --> fopen(/thumbnail/tb7.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/thumbnai...', 'E:\\XAMPP\\htdocs...', 199)
+#1 E:\XAMPP\htdocs\appstarter\app\Views\James_Ulos_view.php(199): fopen('/thumbnail/tb7....', 'r+')
+#2 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\XAMPP\\htdocs...')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#5 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#6 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#7 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#8 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 08:04:02 --> fopen(/thumbnail/tb7.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/thumbnai...', 'E:\\XAMPP\\htdocs...', 199)
+#1 E:\XAMPP\htdocs\appstarter\app\Views\James_Ulos_view.php(199): fopen('/thumbnail/tb7....', 'r+')
+#2 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\XAMPP\\htdocs...')
+#3 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('James_Ulos_view', Array, true)
+#5 E:\XAMPP\htdocs\appstarter\app\Controllers\JU.php(14): view('James_Ulos_view')
+#6 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JU->home()
+#7 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JU))
+#8 E:\XAMPP\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\XAMPP\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-29 09:15:17 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 09:15:28 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 09:16:12 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 09:16:29 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 09:16:34 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 09:16:52 --> Cannot declare class App\Controllers\JU, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-29 23:42:08 --> Undefined variable $background
+#0 C:\xampp\htdocs\appstarter\app\Views\login.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(9): view('login')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->index()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 23:42:11 --> Undefined variable $background
+#0 C:\xampp\htdocs\appstarter\app\Views\login.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(9): view('login')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->index()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 23:42:17 --> Undefined variable $background
+#0 C:\xampp\htdocs\appstarter\app\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(9): view('login')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->index()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-29 23:42:43 --> Undefined variable $background
+#0 C:\xampp\htdocs\appstarter\app\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\appstarter\app\Controllers\jamesulos.php(9): view('login')
+#5 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->index()
+#6 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 C:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

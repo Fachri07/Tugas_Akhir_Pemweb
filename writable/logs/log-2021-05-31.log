@@ -1,0 +1,1261 @@
+ERROR - 2021-05-31 03:56:57 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-05-31 03:56:57 --> Unable to connect to the database.
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(25): CodeIgniter\Model->insert(Array)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 07:28:48 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 43)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:29:57 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 43)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:31:27 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:31:43 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:34:25 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:38:34 --> syntax error, unexpected token "<", expecting end of file
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 07:41:59 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 07:48:17 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 10:10:15 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:14:45 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:19:38 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:21:00 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:21:13 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:28:37 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:28:51 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:30:44 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:33:20 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:38:30 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:38:32 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:38:33 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:43:49 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:43:51 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:43:52 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:44:21 --> syntax error, unexpected token "==", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:45:32 --> Unclosed '{' on line 6
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 10:59:24 --> syntax error, unexpected token "=", expecting variable or "{" or "$"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/home')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/home')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 10:59:38 --> syntax error, unexpected token "=", expecting variable or "{" or "$"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/home')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/home')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 11:51:35 --> Invalid file: home.php
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(26): view('home')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->order_process()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 12:32:07 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:32:10 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:32:12 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/view_...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/view_...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:32:13 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/home')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/home')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:32:26 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:33:14 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:34:52 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:36:23 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:36:32 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:40:53 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:41:10 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:41:11 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:41:12 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:41:12 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:41:13 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:46:23 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 12:47:56 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 13:25:27 --> syntax error, unexpected token ";", expecting ")"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 13:28:55 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:35:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:39:41 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:39:44 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:43:48 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:45:30 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(37): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 13:54:35 --> syntax error, unexpected variable "$data"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 13:56:22 --> syntax error, unexpected variable "$data"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:01:30 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:14 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:16 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:17 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:18 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:18 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:18 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:25 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:29 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:32 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:03:44 --> syntax error, unexpected token "echo"
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/edit/...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/edit/...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 14:04:03 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:11:31 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:37 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:37 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:38 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:38 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:38 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:40 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:40 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:14:40 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:16:24 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:17:05 --> Undefined variable $get
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:17:32 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:19:04 --> Unmatched '}'
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 14:20:10 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:28:36 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(41): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:28:37 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(41): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:43 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:43 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:43 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:44 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:44 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:44 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:45 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:45 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:45 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:45 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:46 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:33:46 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:37:49 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:37:52 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:37:52 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 14:37:53 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:05:38 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:09:40 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:11:50 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 39)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:15:06 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:17:08 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(41): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:17:09 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(41): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:17:21 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 41)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(41): view('pesanan')
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:23:34 --> Undefined variable $data
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:23:46 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:24:07 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:24:08 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:24:09 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('22')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:31:39 --> Undefined variable $getOrder
+#0 E:\xampp\htdocs\appstarter\app\Views\pesanan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 40)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pesanan', Array, true)
+#4 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(40): view('pesanan', Array)
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->edit('23')
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-31 21:37:42 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-31 21:56:30 --> Call to undefined function App\Controllers\getVar()
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-31 21:56:52 --> Call to undefined function App\Controllers\getPost()
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-31 23:08:26 --> Too few arguments to function App\Controllers\JamesUlos::update(), 0 passed in E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-31 23:09:21 --> syntax error, unexpected token "$", expecting variable
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Jamesulos/updat...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Jamesulos/updat...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-31 23:12:44 --> mysqli_sql_exception: Unknown column 'getOrder' in 'field list' in E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 23:12:44 --> Unknown column 'getOrder' in 'field list'
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-31 23:17:40 --> mysqli_sql_exception: Unknown column 'getOrder' in 'field list' in E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 23:17:40 --> Unknown column 'getOrder' in 'field list'
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-31 23:17:58 --> mysqli_sql_exception: Operand should contain 1 column(s) in E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 23:17:58 --> Operand should contain 1 column(s)
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-05-31 23:18:07 --> mysqli_sql_exception: Operand should contain 1 column(s) in E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 23:18:07 --> Operand should contain 1 column(s)
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `pemesan...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `pemesan...')
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `pemesan...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `pemesan...', Array, false)
+#4 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#6 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#7 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#8 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-05-31 23:18:31 --> Unclosed '[' does not match ')'
+#0 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Jame...')
+#2 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(50): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Jame...')
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#5 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-31 23:20:38 --> Undefined property: App\Controllers\JamesUlos::$input
+#0 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 53)
+#1 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-31 23:28:47 --> CodeIgniter\Database\BaseBuilder::update(): Argument #1 ($set) must be of type ?array, string given, called in E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php on line 21
+#0 E:\xampp\htdocs\appstarter\app\Models\James_Ulos_model.php(21): CodeIgniter\Database\BaseBuilder->update('id_pemesanan', Array)
+#1 E:\xampp\htdocs\appstarter\app\Controllers\Jamesulos.php(61): App\Models\James_Ulos_model->editOrder(Array, NULL)
+#2 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\JamesUlos->update()
+#3 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JamesUlos))
+#4 E:\xampp\htdocs\appstarter\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\appstarter\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
